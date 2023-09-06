@@ -1,14 +1,13 @@
 interface Rectangle {
-    width: number,
-    height: number,
+    // width: number,
+    // height: number,
     computeArea: () => number
 }
 
 function newRectangle(width: number, height: number): Rectangle {
+        // int width,
+        // int height,
     return {
-        width,
-        height,
-
         computeArea: function (): number {
             return width * height
         }
